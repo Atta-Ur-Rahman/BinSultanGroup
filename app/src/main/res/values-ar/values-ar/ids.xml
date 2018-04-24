@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="redTheme" type="id">redTheme</item>
+    <item name="blueTheme" type="id">blueTheme</item>
+    <item name="defaultTheme" type="id">defaultTheme</item>
+    <item name="blackTheme" type="id">blackTheme</item>
+</resources>

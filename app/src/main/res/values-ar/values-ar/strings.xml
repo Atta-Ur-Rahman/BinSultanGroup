@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Bin Sultan Group</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text1">Hello blank fragment</string>
+
+////////home fragment text
+    <string name="home_top_text">ARCHITECTURE - RESIDENTIAL SOLUTIONS - REAL ESTATE INVESTMENTS</string>
+    <string name="home_title">WELCOME TO BIN \n SULTAN GROUP</string>
+    <string name="text_what_we_do">WHAT WE DO</string>
+    <string name="text_bottom">Our vision is not limited to just building housing,\n but it is constructed very well</string>
+
+    /////teame fragment text
+    <string name="name_sultan_ali_bin_sultan">Sultan Ali bin Sultan</string>
+    <string name="name_sultan_bin_sultan">Sultan bin Sultan</string>
+    <string name="name_ali_bin_sultan">Ali bin Sultan</string>
+    <string name="name_ibrahim_bin_saed_al_ghamdi">Ibrahim bin Saed Al Ghamdi</string>
+    <string name="name_walid_shistawi">Walid Shistawi</string>
+    <string name="name_mohammed_fawzy">Mohammed Fawzy</string>
+
+    <string name="descoription_sultan_ali_bin_sultan">DIRECTOR OF ADMINISTRATION AND HUMAN RESOURCES</string>
+    <string name="descoription_sultan_bin_sultan">DEPUTY CHAIRMAN OF THE BOARD</string>
+    <string name="descoription_ali_bin_sultan">CHAIRMAN OF BOARD OF DIRECTORS</string>
+    <string name="descoription_ibrahim_bin_saed_al_ghamdi">DIRECTOR OF REAL ESTATE INVESTMENT</string>
+    <string name="descoription_walid_shistawi">CHIEF FINANCIAL OFFICER</string>
+    <string name="descoription_mohammed_fawzy">GROUP GENERAL MANAGER</string>
+
+////services fragment
+    <string name="bussness_sector">Bussness Sector</string>
+    <string name="construction_sector">Construction Sector</string>
+    <string name="real_estate_investment">Real Estate Investment</string>
+    <string name="bin_sultan_celebrations">Bin Sultan Celebrations</string>
+    <string name="maintenance_department">Maintenance Department</string>
+
+    <string name="bussness_sector_text">
+        Ali Bin Sultan Group has set up a factory to manufacture all kinds of ducts in the
+        industrial complex owned by the group on an area of ​​4000 square meters. It was agreed and contracted to supply the
+        latest technological equipment as well as the technical management and structure necessary for project management.
+        To carry out the work according to the technical specifications used and the engineering requirements
+    </string>
+
+    <string name="construction_sector_text">
+        Execution of civil, mechanical and electrical construction projects including housing
+        complexes, towers, palaces, government projects, management of all projects and equipment related to materials and
+        equipment, as well as operation and maintenance.
+    </string>
+
+    <string name="real_estate_investment_text">
+        real estate development Marketing  \n Property Management \n
+        Real estate valuation \n Real Estate Consulting</string>
+
+    <string name="bin_sultan_celebrations_text">
+        We have a number of event halls that provide customers with premium and high quality services
+    </string>
+    <string name="maintenance_department_text">
+        real estate development Marketing Property Management Real estate valuation
+        Real Estate Consulting</string>
+
+    ////project fragment
+
+    <string name="ben_sultan_razdens">Ben Sultan Razdens</string>
+    <string name="details_ben_sultan_razdens">
+        The project includes a residential tower with 18 floors with a total of 208 apartments,
+        in addition to many special features such as private parking, health club for men and women, event halls,
+        driver rooms and many other services that we have developed for you.
+    </string>
+
+    <string name="housing_ben_sultan">Housing Ben Sultan</string>
+    <string name="details_housing_ben_sultan">
+        If you are eligible for projects of the
+        Ministry of Housing hurry up now to book
+        your apartment in the project through the
+        icon booking top of the page and we will
+        contact you soon
+    </string>
+
+    <string name="rawabi_bin_sultan_project">Rawabi bin Sultan Project</string>
+    <string name="details_rawabi_bin_sultan_project">
+        Rawabi Bin Sultan is the latest project of
+        Bin Sultan Holding, which is a continuation
+        of the series of project with the
+        development of many features in the
+        project: Number of buildings: 2 Height of
+        building: 6 floors Number of residential
+        units: 56 units Units:
+    </string>
+
+
+    <string name="ben_sultan_golden_belt">Ben Sultan Golden Belt</string>
+    <string name="details_ben_sultan_golden_belt">
+        The project contains 6 residential buildings
+        with a total of 114 residential apartments
+        in addition to many features such as
+        private parking, drivers rooms and many
+        other services that we have developed for
+        you
+    </string>
+
+
+
+    ///////customers fragment
+
+    <string name="title_engineer_salm_al_shammari">Engineer Salm Al Shammari</string>
+    <string name="title_dr_mamdouh_najjar">Dr Mamdouh Najjar</string>
+    <string name="title_mahammed_saeed_al_bashir">Mahammed Saeed Al Bashir</string>
+
+    <string name="engineer_salm_al_shammari">
+       Saad Bin Sultan Group is a pioneer in real estate development
+        and is also distinguished by testing sites for individual investors.
+        I bought them an apartment in the Andalusia neighborhood of Al-Khobar and after only two months,
+        due to their full commitment to the agreements,
+        I bought another apartment in the same location and also encouraged many of my colleagues to seize the opportunity
+        to book an apartment before the offer came into effect.
+    </string>
+
+    <string name="dr_mamdouh_najjar">Ali Saad Bin Sultan &amp; Brothers Holding Group is keen to meet the needs of investors and
+        customers. It also selects distinguished locations and high quality construction materials. It also provides the real
+        estate investor with personal services that help to make good investment decisions. In many of the company\'s projects,
+        The return on investment was excellent, God help them in the coming projects, which I know it will be a big shift for
+        the work of the group Dr. Mamdouh Mohammed Najjar Associate Professor of Computer Science Retired King Fahd University
+        of Petroleum and Minerals
+</string>
+    <string name="mahammed_saeed_al_bashir">
+        Ali Saad Bin Sultan &amp; Brothers Holding Group is continuously improving the construction of its residential
+        units where each project is better than before. This is a remarkable guide for its customers to apply the
+        company to the principles of continuous quality development. Mohammed Saeed Al-Bashir Al-Beshiri for financial
+        and administrative consulting
+    </string>
+
+
+    ////contact us fragment
+
+
+    <string name="title_communication">COMMUNICATION</string>
+    <string name="communication">Our customers can communicate with us via the following social media or email us</string>
+    <string name="talk_to_us">Talk to us</string>
+    <string name="talk_name">Name</string>
+    <string name="talk_email_adress">Email address</string>
+    <string name="talk_phone_number">Phone Number</string>
+    <string name="talk_your_message">Your Message</string>
+    <string name="send">SEND</string>
+    <string name="talk_address">Al Faisaliah neighborhood -\n Imam Mohammed bin Saud Street\n
+    Dammam , Saudi Arabia</string>
+
+
+    //////////emplyoment fragment
+
+    <string name="titile_requirment">RECRUITMENT</string>
+
+    <string name="requirment">We are delighted to be part of our team, to share experiences and skills in order to
+        develop our society and our values Welcome</string>
+
+    <string name="employment_personal_paintings">Personal paintings</string>
+    <string name="employment_name">Name</string>
+    <string name="employment_family_name">Family Name</string>
+    <string name="employment_date_of_birth">Date Of Birth</string>
+    <string name="employment_gender">Gender</string>
+    <string name="employment_male">Male</string>
+    <string name="employment_female">Female</string>
+    <string name="employment_mobile_number">Mobile Number</string>
+    <string name="employment_telephone_number">Telephone Number</string>
+    <string name="employment_email">Email</string>
+    <string name="employment_palce_of_residence">Place Of Residence</string>
+    <string name="employment_city">City</string>
+    <string name="employment_nationality">Nationality</string>
+    <string name="employment_attach_cv">Attach CV</string>
+    <string name="employment_attach_certificates">Attach the Certificates</string>
+
+
+
+
+
+</resources>

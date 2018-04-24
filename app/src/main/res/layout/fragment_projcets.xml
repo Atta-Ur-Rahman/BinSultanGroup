@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05456C"
+    android:orientation="vertical"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.Projcets">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/ll_project"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_projects"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ben_sultan_razdens"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#ffff" />
+
+        <ImageView
+                android:id="@+id/iv_ben_sultan_razdens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ben_sultan_razdens"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/housing_ben_sultan"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            />
+
+
+
+
+            <ImageView
+                android:id="@+id/iv_housing_ben_sultan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/housing_ben_sultan"
+                android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rawabi_bin_sultan_project"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            />
+
+
+            <ImageView
+                android:id="@+id/iv_rawabi_bin_sultan_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rawabi_bin_sultan_project"
+                android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ben_sultan_golden_belt"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            />
+            <ImageView
+                android:id="@+id/iv_ben_sultan_golden_belt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ben_sultan_golden_belt"
+                android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

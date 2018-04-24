@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مجموعة بن سلطان</string>
+
+    <string name="english"> الإنجليزية  </string>
+    <string name="arabic">عربى</string>
+
+    <string name="navigation_drawer_open">فتح درج التنقل</string>
+    <string name="navigation_drawer_close">إغلاق درج التنقل</string>
+
+    <string name="action_settings">إعدادات</string>
+
+
+
+    /////drawer menu text
+
+    <string name="home">الرئيسية </string>
+    <string name="team">الفريق</string>
+    <string name="services">حدماتنا</string>
+    <string name="project">المشاريع</string>
+    <string name="customers">عملاء</string>
+    <string name="contact_us">التواصل</string>
+    <string name="employment">التوظيف</string>
+    <string name="language">غير اللغة</string>
+
+    <string name="bin_sultan_group"> مجموعة بن سلطان</string>
+
+    ////////home fragment text
+    <string name="home_top_text">هندسة معمارية - حلول سكنية - استثمارات عقارية</string>
+    <string name="home_title">مرحبا بكم في \n مجموعة بن سلطان</string>
+    <string name="text_what_we_do">ماالذي نقوم به</string>
+    <string name="text_bottom">
+          n\رؤيتنا لا تقتصر على مجرد بناء المساكن
+        , ولكن انشاؤها بشكل متقن</string>
+
+
+    <string name="about_bin_sultan_title">عن مجموعة بن سلطان</string>
+    <string name="about_bin_sultan">
+        بتاريخ عميق من الجهود وثقافة مليئة بالصدق والامانة والثقة بالنفس واساس قوي من
+        الامكانيات كانت بدايتنا عام 1997م وعلى اسس علمية مدروسة اتجهنا الى هذا الطريق
+        لتطوير العقارات واكمال مسيرتنا بتشييد مشاريعنا بدعم لامحدود وبطاقات فريق العمل
+        التي لم تقف عن التقدم والرقي الى مانصبوا الية نظرا للحاجه الماسة في البناء
+        وسوف نواصل مسيرتنا على هذا الاساس
+    </string>
+
+    <string name="objective_title">الاهداف</string>
+    <string name="objective_detail">
+        - ان نمد عملائنا بأعلى مستوى من الجودة
+        يمكن انجازه بقيمة كل معامله - ان تكون كل
+        تعاملات المجموعه مبنية على اساس الامانة
+        والمبادئ السامية وبناء الثقة . - الاستجابة
+        لمتغيرات ومتطلبات السوق . - الاهتمام بآراء
+        العملاء والتعامل معها بجدية . -التركيز على
+        اهمية الولاء المشترك بين العميل والشركة
+        . الحصول على شعادة الايزو ISO9001
+    </string>
+
+    <string name="the_letter"> الرسالة</string>
+    <string name="the_letter_detail">
+      تنفيذ المشاريع باحترافيه وامانه من خلال فريق
+        عمل متميز ومخلص يهتم بارضاء العميل
+        ويستخدم احدث معايير الجوده , ويسعي الي
+        مواكبه مستجدات العصر .
+    </string>
+    <string name="vision">الرؤية</string>
+    <string name="vision_detail">
+
+رؤيتنا لا تقتصر على مجرد بناء المساكن , ولكن
+        انشاؤها بشكل متقن , والسير قدما ببنائها
+        بأعلى معايير الاحتراف والمهنية مع عدم
+        أغفال أخلاقيات العمل لنتجاوز بذلك توقعات
+        عملائنا .
+    </string>
+
+    /////teame fragment text
+    <string name="name_sultan_ali_bin_sultan">سلطان علي بن سلطان</string>
+    <string name="name_sultan_bin_sultan">أ / سلطان بن سلطان</string>
+    <string name="name_ali_bin_sultan">أ / علي بن سلطان</string>
+    <string name="name_ibrahim_bin_saed_al_ghamdi">ابراهيم بن سعيد الغامدي</string>
+    <string name="name_walid_shistawi">وليد الششتاوي</string>
+    <string name="name_mohammed_fawzy">م/ محمد فوزي</string>
+
+    <string name="descoription_sultan_ali_bin_sultan">مدير الشئون الادارية والموارد البشرية</string>
+    <string name="descoription_sultan_bin_sultan">نائب رئيس مجلس الادارة</string>
+    <string name="descoription_ali_bin_sultan">رئيس مجلس الادارة</string>
+    <string name="descoription_ibrahim_bin_saed_al_ghamdi">مدير الاستثمار العقاري</string>
+    <string name="descoription_walid_shistawi">المدير المالي</string>
+    <string name="descoription_mohammed_fawzy">مدير عام المجموعة</string>
+
+    ////services fragment
+    <string name="bussness_sector">قطاع الاعمال المكانيكية</string>
+    <string name="construction_sector">قطاع المقاولات</string>
+    <string name="real_estate_investment">الاستثمار العقاري</string>
+    <string name="bin_sultan_celebrations">بن سلطان للاحتفالات</string>
+    <string name="maintenance_department">قسم الصيانة</string>
+
+    <string name="bussness_sector_text">
+       تقوم مجموعة علي بن سلطان بانشاء مصنع
+        لتصنيع جميع انواع الدكت وذلك بالمجمع
+        الصناعي المملوك للمجموعه علي مساحة
+        4000 متر مربع وتم الاتفاق والتعاقد علي
+        توريد احدث المعدات ذات التكنولوجيه وكذلك
+        الاداره الفنيه والهيكله اللازمه لاداره المشاريع
+        بالاضافه لما يملكه قسم التكييف من المعدات
+        اللازمه لتنفيذ اعمال التكييف وكذلك الاجهزه
+        لتنفيذ الاعمال طبقا للمواصفات الفنيه
+        المستخدمه والاشتراطات الهندسيه
+    </string>
+
+    <string name="construction_sector_text">
+       تنفيذ المشاريع الانشائية المدنية المكانيكية
+        والكهربائية بما تشملة من مجمعات سكنية
+        وابراج وقصور والمشاريع الحكومية وادارة
+        جميع المشاريع والتجهيزات الخاصة بالمواد
+        والمعدات بالاضافة الى التشغيل والصيانة
+    </string>
+
+    <string name="real_estate_investment_text">
+
+التطوير العقاري \n
+التسويق \n
+ادارة الاملاك \n
+التثمين العقاري \n
+الاستشارات العقارية</string>
+
+    <string name="bin_sultan_celebrations_text">
+       نمتلك عدد من قاعات المناسبات التي توفر \n للعملاء الخدمات المتميزة والراقية
+    </string>
+    <string name="maintenance_department_text">
+        قسم يختص بتقديم الصيانة الدورية والطارئة \n للمشاريع وتقديم الخدمات الخاصة بالعملاء
+    </string>
+
+    ////project fragment
+
+    <string name="ben_sultan_razdens">بن سلطان رزدنس</string>
+    <string name="details_ben_sultan_razdens">
+        يحتوي المشروع على برج سكني
+        بارتفاع 18 طابق باجمالي 208 شقه
+        سكنيه بالاضافة الى العديد من المميزات
+        كالمواقف الخاصه والنادي الصحي
+        المخصص للرجال والسيدات بالاضافة الى
+        قاعات المناسبات وغرف السائقين
+        والعديد من الخدمات الاخرى التي عملنا
+        على تطويرها من اجلكم
+    </string>
+
+    <string name="housing_ben_sultan">اسكان بن سلطان</string>
+    <string name="details_housing_ben_sultan">
+        إذا كنت من المستحقين في مشاريع
+        وزارة الإسكان سارع بالتسجيل الآن لحجز
+        شقتك في المشروع من خلال ايقونة
+        حجز اعلى الصفحة وسنتواصل معكم
+        قريبا
+    </string>
+
+    <string name="rawabi_bin_sultan_project">مشروع روابي بن سلطان</string>
+    <string name="details_rawabi_bin_sultan_project">
+        مشروع روابي بن سلطان هو احدث
+        مشاريع بن سلطان القابضة وهو تكملة
+        لسلسلة المشاريع المتقنة مع تطوير
+        كثير من المميزات بالمشروع : عدد
+        المباني : 2 ارتفاع المبنى : 6 ادوار عدد
+        الوحدات السكنية: 56 وحدة سكنية
+        مساحات الوحدات: تتراوح
+    </string>
+
+
+    <string name="ben_sultan_golden_belt">بن سلطان الحزام الذهبي</string>
+    <string name="details_ben_sultan_golden_belt">
+        يحتوي المشروع على 6 عمارات سكنيه
+        باجمالي 114 شقه سكنيه بالاضافة الى
+        العديد من المميزات كالمواقف الخاصه
+        وغرف السائقين والعديد من الخدمات
+        الاخرى التي عملنا على تطويرها من
+        اجلكم
+    </string>
+
+
+    ///////customers fragment
+
+    <string name="happy_customer">عملاء سعيدون</string>
+    <string name="customer_detail">هنا بعض من عملائنا الذين نفخر كثيرا بخدمتهم</string>
+
+    <string name="title_engineer_salm_al_shammari">المهندس/ سلام الشمري</string>
+    <string name="title_dr_mamdouh_najjar">دكتور ممدوح محمد نجار</string>
+    <string name="title_mahammed_saeed_al_bashir">محمد سعيد البشيري</string>
+
+    <string name="engineer_salm_al_shammari">
+       شركة مجموعة على سعد بن سلطان
+        حقاً رائدة في مجال التطوير العقاري و مميزة ًايضا بإختبار
+        المواقع للمستثمرين الافراد . اشتريت منهم شقة في حي الأندلس
+        الخبر وبعد شهرين فقط ونظراً لالتزامهم الكامل باتفاقيات ،
+        اشتريت شقة اخرى منهم في نفس الموقع وايضاً شجعت العديد
+        من زملائي لاقتناص الفرصة لحجز شقة قبل نفاذ العرض. المهندس/ سلام الشمري
+    </string>
+
+    <string name="dr_mamdouh_najjar">
+       تتميز مجموعة علي سعد بن سلطان واخوانه القابضة في مشاريعها
+        السكنية بالنظر لحاجات المستثمرين والعملاء بشكل دقيق
+        كما تختار مواقع متميزة ومواد بناء عالية الجودة،
+        كما وتقدم للمستثمر العقاري خدمات شخصية تساعدة
+        على اتخاذ قرارات استثماريه جيدة العائد، لقد كان
+        تعاملي في كثير من مشاريع الشركة ممتع ومتميز وكان
+        العائد على استثماري ممتاز، وفقهم الله في مشاريعم
+        القادمة والتي اعرف انها ستكون نقلة كبيرة لاعمال
+        المجموعة دكتور ممدوح محمد نجار استاذ مشارك متقاعد
+        لعلوم الحاسب الآلي جامعة الملك فهد للبترول والمعادن
+</string>
+    <string name="mahammed_saeed_al_bashir">
+       تتميز مجموعة علي سعد بن سلطان واخوانه القابضة في مشاريعها السكنية
+        بالنظر لحاجات المستثمرين والعملاء بشكل دقيق كما
+        تختار مواقع متميزة ومواد بناء عالية الجودة،
+        كما وتقدم للمستثمر العقاري خدمات شخصية تساعدة
+        على اتخاذ قرارات استثماريه جيدة العائد،
+        لقد كان تعاملي في كثير من مشاريع الشركة
+        ممتع ومتميز وكان العائد على استثماري ممتاز،
+        وفقهم الله في مشاريعم القادمة والتي اعرف
+        انها ستكون نقلة كبيرة لاعمال المجموعة
+        دكتور ممدوح محمد نجار استاذ مشارك
+        متقاعد لعلوم الحاسب الآلي جامعة
+        الملك فهد للبترول والمعادن
+دكتور ممدوح محمد نجار
+تتميز مجموعة علي
+        سعد بن سلطان واخوانه القابضة بالتحسين المستمر في
+        بناء وحداتها السكنية حيث تجد كل مشروع أفضل من
+        الذي قبله. وهذا دليل ملفت يلحظه عملائها لتطبيق
+        الشركة لمبادئ تطوير الجودة المستمر. محمد سعيد
+        البشيري البشيري لﻻستشارات المالية واﻻدارية
+    </string>
+
+
+    ////contact us fragment
+
+
+    <string name="title_communication">التواصل</string>
+    <string name="communication">يمكن لعملائنا التواصل معنا عن طريق وسائل التواصل الاجتماعي التالية او مراسلتنا</string>
+    <string name="talk_to_us">تحدث معنا</string>
+    <string name="talk_name">الاسم</string>
+    <string name="talk_email_adress">البريد</string>
+    <string name="talk_phone_number">الهاتف</string>
+    <string name="talk_your_message">الرسالة</string>
+    <string name="send">ارسل</string>
+    <string name="talk_address">
+        حي الفيصلية  -\n شارع الامام محمد بن سعود\
+        n
+       مدينة الدمام المملكة العربية السعودية</string>
+
+    <string name="enter_name">أدخل الاسم</string>
+    <string name="enter_email">أدخل البريد الإلكتروني</string>
+    <string name="enter_phone_number">أدخل رقم الهاتف</string>
+    <string name="enter_message">أدخل رسالة</string>
+
+    <string name="loading">جار التحميل....</string>
+    <string name="thank_Contecting_us">شكرا ل كونتيكتينغ لنا</string>
+    <string name="we_have_receved_message">لقد تلقينا رسالتك</string>
+    <string name="error">خطأ</string>
+    <string name="no_internet">لا يوجد اتصال إنترنت</string>
+    <string name="oop">وجه الفتاة...</string>
+    <string name="same_name_message">الاسم والرسالة نفس الحرف</string>
+
+    //////////emplyoment fragment
+
+    <string name="titile_requirment">التوظيف</string>
+
+    <string name="requirment">يسعدنا أن تكون جزء من فريق عملنا,
+        كي نتشارك الخبرات والمهارات في سبيل تطوير مجتمعنا وقيمنا أهلاً بك</string>
+
+    <string name="employment_personal_paintings">البيانيات الشخصية</string>
+    <string name="employment_name">الاسم الاول</string>
+    <string name="employment_family_name">اسم العائلة</string>
+    <string name="employment_date_of_birth">تاريخ الميلاد</string>
+    <string name="employment_gender">الجنس</string>
+    <string name="employment_male">ذكر</string>
+    <string name="employment_female">انثى</string>
+    <string name="employment_mobile_number">رقم الجوال</string>
+    <string name="employment_telephone_number">رقم الهاتف</string>
+    <string name="employment_email">البريد الالكتروني</string>
+    <string name="employment_palce_of_residence">مكان الاقامة</string>
+    <string name="employment_city">المدينة</string>
+    <string name="employment_nationality">الجنسية</string>
+    <string name="attachments">المرفقات</string>
+    <string name="employment_attach_cv">أرفق السيرة الذاتية</string>
+    <string name="employment_attach_certificates">أرفق الشهادات</string>
+
+
+    <string name="enter_family_name">أدخل اسم العائلة</string>
+    <string name="ente_dob">أدخل تاريخ الميلاد</string>
+    <string name="enter_gender">أدخل الجنس</string>
+    <string name="enter_mobile_number">أدخل رقم الجوال</string>
+    <string name="enter_telephone_number">أدخل رقم الهاتف</string>
+    <!--<string name="enter_email">Enter Email</string>-->
+    <string name="enter_place_r">أدخل مكان الإقامة</string>
+    <string name="enter_city">أدخل اسم المدينة</string>
+    <string name="enter_nationality">أدخل ناتوناليتي</string>
+    <string name="cv_doesnot_exist">السيرة الذاتية لا توجد</string>
+    <string name="certificates_dosenot_exist">الشهادات لا توجد</string>
+
+
+    <string name="we_have_received_cv">لقد تلقينا سيرتك الذاتية</string>
+    <string name="will_get_back">سوف نعود اليكم قريبا</string>
+    <string name="something_went_wrong">هناك خطأ ما!</string>
+    <string name="correct_email">تصحيح بريدك الإلكتروني</string>
+    <string name="name_family_same">الاسم والأسرة نفس الحرف</string>
+
+</resources>

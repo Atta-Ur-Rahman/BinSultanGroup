@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05456C"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.Home">
+
+    <!-- TODO: Update blank fragment layout -->
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hometext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textSize="10dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="@string/home_top_text" />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/home_title" />
+
+    <TextView
+        android:id="@+id/tv_what_we_do"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#ffff"
+    android:textSize="14dp"
+    android:background="@drawable/squreline"
+    android:layout_marginLeft="2dp"
+
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="306dp"
+    />
+
+
+    <TextView
+        android:id="@+id/tv_objectives"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:text="Objectives"
+        android:textAlignment="center"
+        android:background="@drawable/tvback"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tv_the_letter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:text="the letter"
+        android:background="@drawable/tvback"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:id="@+id/tv_vision"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:background="@drawable/tvback"
+        android:text="Vision"
+        android:layout_weight="1" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="460dp"
+        android:textAlignment="center"
+        android:text="@string/text_bottom"
+        android:textColor="#ffff"
+        />
+
+
+</FrameLayout>
+</ScrollView>

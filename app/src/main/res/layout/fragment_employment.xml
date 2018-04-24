@@ -1,0 +1,291 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:background="#05456C"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.Employment">
+
+    <!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/titile_requirment"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/requirment"
+            android:textAlignment="center"
+            android:textColor="#ffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/employment_personal_paintings"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:id="@+id/et_employment_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_background"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/employment_name"
+            android:paddingRight="20dp"
+            android:inputType="textPersonName"
+            android:textColor="#BDBDBD"
+            android:textColorHint="#BDBDBD"
+            android:paddingLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/et_employment_family_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_background"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/employment_family_name"
+            android:inputType="textPersonName"
+            android:textColor="#BDBDBD"
+            android:textColorHint="#BDBDBD"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+            <EditText
+                android:id="@+id/et_employment_date_of_birth"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_background"
+                android:layout_marginTop="5dp"
+                android:hint="@string/employment_date_of_birth"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:editable="false"
+                android:paddingLeft="20dp"
+                android:textColor="#BDBDBD"
+                android:textColorHint="#BDBDBD"
+                android:paddingRight="20dp"/>
+
+         <RadioGroup
+             android:layout_width="match_parent"
+             android:layout_height="40dp"
+             android:id="@+id/gender"
+             android:orientation="horizontal"
+             android:background="@drawable/et_background"
+             android:layout_marginTop="5dp"
+
+             >
+
+             <EditText
+                 android:id="@+id/et_employment_gender"
+                 android:layout_width="81dp"
+                 android:layout_height="50dp"
+                 android:layout_marginTop="5dp"
+                 android:ems="10"
+                 android:text="@string/employment_gender"
+                 android:paddingBottom="20dp"
+                 android:inputType="textPersonName"
+                 android:textColor="#BDBDBD"
+                 android:textColorHint="#BDBDBD"
+                 android:layout_marginLeft="0dp"
+                 android:paddingRight="20dp"
+                 />
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:text="@string/employment_male"
+
+             android:buttonTint="#ffff"
+             android:textColor="#BDBDBD"
+             android:id="@+id/rbtnm"
+             android:checked="false" />
+             <!--     android:layoutDirection="rtl"-->
+
+         <RadioButton
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:text="@string/employment_female"
+             android:buttonTint="#ffff"
+             android:textColor="#BDBDBD"
+             android:id="@+id/rbtnf"
+             android:layout_below="@+id/radioGroup"
+             android:checked="false" />
+
+
+         </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/et_employment_mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_background"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:paddingLeft="20dp"
+            android:hint="@string/employment_mobile_number"
+            android:inputType="phone"
+            android:textColor="#BDBDBD"
+            android:textColorHint="#BDBDBD"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:id="@+id/et_employment_telephone_number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:background="@drawable/et_background"
+            android:layout_marginTop="5dp"
+            android:hint="@string/employment_telephone_number"
+            android:inputType="phone"
+            android:textColor="#BDBDBD"
+            android:paddingRight="20dp"
+            android:textColorHint="#BDBDBD"
+            android:paddingLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/et_employment_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_background"
+                android:ems="10"
+                android:hint="@string/employment_email"
+                android:inputType="textEmailAddress"
+                android:textColor="#BDBDBD"
+                android:paddingRight="20dp"
+                android:textColorHint="#BDBDBD"
+                android:paddingLeft="20dp"/>
+
+            <EditText
+            android:id="@+id/et_employment_place_residence"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_background"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/employment_palce_of_residence"
+            android:inputType="textPersonName"
+            android:textColor="#BDBDBD"
+            android:textColorHint="#BDBDBD"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"/>
+
+        <EditText
+            android:id="@+id/et_employment_city"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_background"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:hint="@string/employment_city"
+            android:inputType="textPersonName"
+            android:textColor="#BDBDBD"
+            android:textColorHint="#BDBDBD"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <EditText
+            android:id="@+id/et_employment_nationality"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/et_background"
+            android:ems="10"
+            android:hint="@string/employment_nationality"
+            android:inputType="textPersonName"
+            android:textColor="#BDBDBD"
+            android:textColorHint="#BDBDBD"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/attachments"
+            android:textColor="#ffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <Button
+            android:id="@+id/btn_employment_cv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#ffff"
+            android:layout_marginTop="5dp"
+            android:text="@string/employment_attach_cv" />
+
+        <ImageView
+            android:id="@+id/iv_employment_cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btn_employment_certificates"
+            android:layout_width="match_parent"
+            android:textColor="#ffff"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/employment_attach_certificates" />
+
+        <ImageView
+            android:id="@+id/iv_employment_certificates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+            <Button
+                android:id="@+id/btn_employment_send"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/tvback"
+                android:layout_height="wrap_content"
+                android:text="@string/send"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>

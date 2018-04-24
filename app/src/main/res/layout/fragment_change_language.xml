@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05456C"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.ChangeLanguage">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+    android:layout_marginBottom="30dp"
+android:layout_gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="90dp"
+    android:layout_marginRight="90dp">
+    <ImageView
+        android:id="@+id/iv_english"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/english"
+       />
+<TextView
+    android:id="@+id/tv_english"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/english"
+    android:textAlignment="gravity"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:textSize="25dp"
+    android:textColor="#ffff"
+    android:layout_marginBottom="20dp"
+    />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp">
+        <ImageView
+            android:id="@+id/iv_arabic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/arabic"
+            />
+<TextView
+    android:id="@+id/tv_arabic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="10dp"
+    android:paddingTop="10dp"
+    android:layout_marginRight="10dp"
+    android:textSize="25dp"
+    android:textAlignment="gravity"
+    android:gravity="center"
+    android:text="@string/arabic"
+    android:textColor="#ffff"
+    />
+    </LinearLayout>
+
+  <!--  <View
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="#fff"/>
+    <TextView
+        android:id="@+id/tv_slang"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:text="Language"
+        android:textColor="#ffff"
+        />
+-->
+</LinearLayout>
+
+</ScrollView>

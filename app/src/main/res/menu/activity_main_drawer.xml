@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_team"
+            android:icon="@drawable/team"
+            android:title="@string/team" />
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/services"
+            android:title="@string/services" />
+        <item
+            android:id="@+id/nav_projects"
+            android:icon="@drawable/projects"
+            android:title="@string/project" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/customer"
+            android:title="@string/customers" />
+
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@drawable/contact_us"
+            android:title="@string/contact_us" />
+
+        <item
+            android:id="@+id/nav_employment"
+            android:icon="@drawable/employement"
+            android:title="@string/employment" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/language"
+            android:title="@string/language" />
+
+
+
+
+
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

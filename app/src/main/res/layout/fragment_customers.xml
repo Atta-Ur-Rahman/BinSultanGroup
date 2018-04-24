@@ -1,0 +1,238 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#05456C"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.Customers">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <!-- <android.support.v4.view.ViewPager
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/view_pager"
+
+        />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/engineer_salm_al_shammari" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dr_mamdouh_najjar" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mohammed_saeed_al_bashir" />
+        />
+
+    </com.daimajia.slider.library.Indicators.PagerIndicator>
+
+-->
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:textStyle="bold"
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:textColor="#ffff"
+             android:layout_gravity="center_horizontal"
+             android:text="@string/happy_customer"
+             />
+
+         <TextView
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:textColor="#ffff"
+             android:layout_marginTop="5dp"
+             android:textSize="11dp"
+             android:layout_gravity="center_horizontal"
+             android:text="@string/customer_detail"
+             />
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:layout_marginTop="10dp">
+
+             <ImageView
+                 android:id="@+id/iv_left_arrow"
+                 android:layout_width="40dp"
+                 android:layoutDirection="ltr"
+                 android:layout_height="180dp"
+                 app:srcCompat="@drawable/left_arrow" />
+
+
+
+     <ViewFlipper
+         android:id="@+id/view_flipper_images"
+         android:layout_width="250dp"
+         android:background="@drawable/et_background"
+         android:layout_height="250dp"
+         android:layout_gravity="center_horizontal"
+         android:autoStart="true"
+         android:scrollbarFadeDuration="800"
+      >
+
+
+         <ImageView
+             android:id="@+id/imageView3"
+             android:background="@drawable/et_background"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:srcCompat="@drawable/engineer_salm_al_shammari" />
+
+         <ImageView
+             android:id="@+id/imageView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:srcCompat="@drawable/dr_mamdouh_najjar" />
+
+
+         <ImageView
+             android:id="@+id/imageView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             app:srcCompat="@drawable/mohammed_saeed_al_bashir" />
+     </ViewFlipper>
+
+         <ImageView
+             android:id="@+id/iv_right_arrow"
+             android:layout_width="40dp"
+             android:layout_height="180dp"
+             android:layoutDirection="rtl"
+             app:srcCompat="@drawable/right_arrow" />
+
+         </LinearLayout>
+
+         <FrameLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="20dp"
+             android:layout_marginBottom="15dp">
+
+             <ViewFlipper
+                 android:id="@+id/view_flipper_name"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:autoStart="true"
+                 android:scrollbarFadeDuration="800"
+
+                 >
+
+
+                 <TextView
+                     android:id="@+id/tv_name_engineer_salm_al_shammari"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAlignment="center"
+                     android:textStyle="bold"
+                     android:textSize="15dp"
+                     android:textColor="#ffff"
+                     android:layout_gravity="center_horizontal"
+                     android:text="@string/title_engineer_salm_al_shammari"
+                     />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAlignment="center"
+                     android:textStyle="bold"
+                     android:textSize="15dp"
+                     android:textColor="#ffff"
+                     android:layout_gravity="center_horizontal"
+                     android:text="@string/title_dr_mamdouh_najjar"
+                     />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAlignment="center"
+                     android:textStyle="bold"
+                     android:layout_gravity="center_horizontal"
+                     android:textSize="15dp"
+                     android:textColor="#ffff"
+                     android:text="@string/title_mahammed_saeed_al_bashir"
+                     />
+
+
+
+             </ViewFlipper>
+         </FrameLayout>
+
+
+         <FrameLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="15dp"
+             android:layout_margin="10dp">
+
+     <ViewFlipper
+         android:id="@+id/view_flipper_text"
+         android:layout_width="wrap_content"
+         android:layout_height="200dp"
+         android:layout_gravity="center_horizontal"
+         android:autoStart="true"
+         android:scrollbarFadeDuration="800"
+         >
+
+
+         <TextView
+             android:id="@+id/tv_engineer_salm_al_shammari"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:textColor="#ffff"
+             android:text="@string/engineer_salm_al_shammari"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:textColor="#ffff"
+             android:text="@string/mahammed_saeed_al_bashir"
+             />
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAlignment="center"
+             android:textColor="#ffff"
+             android:text="@string/dr_mamdouh_najjar"
+             />
+
+
+
+
+     </ViewFlipper>
+         </FrameLayout>
+
+     </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.phlox.widget:android-date-picker-0.2.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-date-picker-0.2.1.aar/5be2381c970e68d6ea8adf6053e9a53b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/android-date-picker-0.2.1.aar/5be2381c970e68d6ea8adf6053e9a53b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.phlox.widget/android-date-picker/0.2.1/1c40e42321210a3a2f296744e7b5ab5498e669c1/android-date-picker-0.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

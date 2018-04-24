@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.What_WEdo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#F5F5F5">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_bin_sultan_title"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="#E0E0E0"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_bin_sultan"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:textAlignment="center"
+       />
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/objective_title"
+            android:textAlignment="center"
+            android:background="#E0E0E0"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/objective_detail"
+        android:layout_gravity="center_horizontal" android:textColor="#000000"
+        android:padding="5dp"
+        android:textAlignment="center"
+       />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/the_letter"
+            android:textAlignment="center"
+            android:background="#E0E0E0"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_letter_detail"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/vision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/vision"
+            android:background="#E0E0E0"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vision_detail"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000000"
+            android:padding="5dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</ScrollView>

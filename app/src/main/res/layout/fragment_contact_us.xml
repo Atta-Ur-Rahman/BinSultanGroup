@@ -1,0 +1,260 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:background="#05456C"
+    tools:context="com.example.atta_ur_rahman.binsultangroup.ContactUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="@string/title_communication"
+            android:textColor="#ffff"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/communication"
+            android:textAlignment="center"
+            android:textColor="#ffff" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/iv_google_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/google_plus" />
+
+            <ImageView
+                android:id="@+id/iv_youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/youtube" />
+
+            <ImageView
+                android:id="@+id/iv_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/instagram" />
+
+            <ImageView
+                android:id="@+id/iv_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/iv_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/twitter" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/talk_to_us"
+                android:textColor="#ffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_talk_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:textColorHint="#BDBDBD"
+                android:textColor="#BDBDBD"
+                android:hint="@string/talk_name"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/et_background"
+                android:inputType="textPersonName"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/et_talk_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textColorHint="#BDBDBD"
+                android:textColor="#BDBDBD"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/talk_email_adress"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/et_talk_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:textColorHint="#BDBDBD"
+                android:textColor="#BDBDBD"
+                android:ems="10"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@drawable/et_background"
+                android:hint="@string/talk_phone_number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/et_talk_message"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:textColorHint="#BDBDBD"
+                android:textColor="#BDBDBD"
+                android:background="@drawable/et_background"
+                android:ems="10"
+                android:hint="@string/talk_your_message"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:nextFocusDown="@+id/btn_talk_send"
+                android:inputType="textMultiLine" />
+            <Button
+                android:id="@+id/btn_talk_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ffff"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:background="@drawable/tvback"
+                android:text="@string/send"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/iv_google_map"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/address" />
+                <TextView
+                    android:id="@+id/tv_talk_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="5dp"
+                    android:paddingTop="3dp"
+                    android:text="@string/talk_address"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffff"
+                    android:textSize="12dp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/iv_phone"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/phone" />
+
+                <TextView
+                    android:id="@+id/tv_talk_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="10dp"
+                    android:textSize="14dp"
+                    android:layout_marginTop="15dp"
+                    android:text="920002442"
+                    android:gravity="right"
+                    android:layout_marginRight="5dp"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffff" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_email"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/message" />
+                <TextView
+                    android:id="@+id/tv_talk_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="14dp"
+                    android:layout_marginTop="5dp"
+                    android:text=" info@bin-sultan.com"
+                    android:gravity="right"
+                    android:paddingTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:textAlignment="gravity"
+                    android:textColor="#ffff" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
